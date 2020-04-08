@@ -1,0 +1,26 @@
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+Subject: 
+ =?utf-8?b?0KHQsdGA0L7RgSDQv9Cw0YDQvtC70Y8g0L3QsCBsb2NhbGhvc3Q6ODAwMA==?=
+From: webmaster@localhost
+To: dinar184@mail.ru
+Date: Wed, 04 Mar 2020 09:19:15 -0000
+Message-ID: <158331355542.3660.8637102477891696782@ubuntu>
+
+
+Вы получили это письмо, потому что вы (или кто-то другой) запросили восстановление пароля от учётной записи на сайте localhost:8000, которая связана с этим адресом электронной почты.
+
+Пожалуйста, перейдите на эту страницу и введите новый пароль:
+
+http://localhost:8000/auth/reset/MQ/5ei-9fdd39a26f0d02a9143e/
+
+Ваше имя пользователя (на случай, если вы его забыли): admin
+
+Спасибо, что используете наш сайт!
+
+Команда сайта localhost:8000
+
+
+
+-------------------------------------------------------------------------------

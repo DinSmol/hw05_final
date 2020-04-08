@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block title %}{{ titles.title }}{% endblock %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-md-8 p-5">
+        <div class="card">
+            <div class="card-header">{{ titles.form_title }}</div>
+            <div class="card-body">
+
+                <form method="post" enctype="multipart/form-data">
+                    {% csrf_token %}
+                    {{ form }}
+
+                    <div class="col-md-6 offset-md-4">              
+                            <button type="submit" class="btn btn-primary">
+                                {{ titles.button_text }}
+                            </button>
+                    </div>
+                </form>
+
+            </div> <!-- card body -->
+        </div> <!-- card -->
+    </div> <!-- col -->
+</div> <!-- row -->
+{% endblock %}

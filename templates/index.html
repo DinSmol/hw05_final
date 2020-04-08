@@ -1,0 +1,7 @@
+{% extends "group.html" %} 
+{% block title %} Последние обновления {% endblock %}
+
+{% block content %}
+    {% include "menu.html" with index=True %}
+            {{ block.super }} 
+{% endblock %}
