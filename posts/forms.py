@@ -16,6 +16,7 @@ class PostForm(ModelForm):
             raise forms.ValidationError("Длина поста должна быть более 20 символов!")
         return cleaned_data
 
+
 class CommentForm(ModelForm):
     class Meta:
         model = Comment
@@ -26,7 +27,6 @@ class CommentForm(ModelForm):
     
     def clean_text(self):
         cleaned_data = self.cleaned_data['text']
-        #print (f'text {cleaned_data} len: {len(cleaned_data)}')
         if len(cleaned_data) < 3:
             raise forms.ValidationError("Длина комментария должна быть более 3-х символов!")
         return cleaned_data
