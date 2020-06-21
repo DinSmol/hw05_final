@@ -1,2 +1,2 @@
-# yatube
-Соцсеть на Django
+# Проект "yatube"
+Социальная сеть YaTube
